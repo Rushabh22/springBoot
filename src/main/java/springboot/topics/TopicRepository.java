@@ -1,4 +1,4 @@
-package springboot.topic;
+package springboot.topics;
 
 import org.springframework.data.repository.CrudRepository;
 
