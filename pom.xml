@@ -5,12 +5,13 @@
 	<artifactId>course-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring boot Course API</name>
-
-	<parent>
+<!-- Parent pulls the configuration. It controls what version of jars to be downloaded -->
+	<parent> 
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.4.RELEASE</version>
 	</parent>
+<!-- 	It informs maven what dependent jars needs to be downloaded-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
